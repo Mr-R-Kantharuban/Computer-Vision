@@ -1,0 +1,7 @@
+import cv2
+
+path = r'...........' #replace the path where the image is located
+input=cv2.imread(path)
+cv2.imshow('image',input)
+cv2.waitKey()
+cv2.destroyAllWindows()
